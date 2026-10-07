@@ -1,0 +1,91 @@
+<!doctype html>
+<html lang="uz">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Yurakdosh — Maxfiylik siyosati</title>
+<style>
+  :root { --bg:#f6f0fb; --card:#fff; --ink:#1f1630; --muted:#5d5370; --accent:#7b2cbf; }
+  @media (prefers-color-scheme: dark) { :root { --bg:#17111f; --card:#221a2e; --ink:#f1ebf8; --muted:#b3a8c4; --accent:#c08bf0; } }
+  * { box-sizing:border-box; }
+  body { margin:0; background:var(--bg); color:var(--ink); font:16px/1.65 system-ui,-apple-system,"Segoe UI",Roboto,sans-serif; }
+  main { max-width:760px; margin:0 auto; padding:24px 16px 56px; }
+  .card { background:var(--card); border-radius:16px; padding:24px 20px; }
+  h1 { color:var(--accent); margin:0 0 4px; font-size:1.7rem; }
+  h2 { margin:28px 0 8px; font-size:1.2rem; color:var(--accent); }
+  p, li { color:var(--ink); }
+  ul { padding-left:20px; }
+  .meta { color:var(--muted); font-size:.9rem; margin:0 0 16px; }
+  a { color:var(--accent); }
+  table { width:100%; border-collapse:collapse; font-size:.95rem; }
+  td, th { text-align:left; padding:8px 6px; border-bottom:1px solid rgba(128,128,128,.25); vertical-align:top; }
+</style>
+</head>
+<body>
+<main>
+<div class="card">
+<h1>Maxfiylik siyosati</h1>
+<p class="meta">Yurakdosh ilovasi · Versiya 1.0 · Kuchga kirgan sana: 2026-yil 8-oktabr</p>
+
+<p>Bu hujjat Yurakdosh tanishuv ilovasi (keyingi o'rinlarda "Ilova") sizning shaxsiy ma'lumotlaringizni qanday yig'ishi, ishlatishi va himoya qilishini tushuntiradi. Ilovadan foydalanib, siz ushbu siyosat bilan tanishganingizni tasdiqlaysiz.</p>
+
+<h2>1. Biz qanday ma'lumotlarni yig'amiz</h2>
+<table>
+<tr><th>Ma'lumot</th><th>Nima uchun kerak</th></tr>
+<tr><td>Ism, email, parol</td><td>Akkaunt yaratish va tizimga kirish. Parol xeshlangan (shifrlangan) holda saqlanadi, biz uni o'qiy olmaymiz.</td></tr>
+<tr><td>Yosh, jins, shahar</td><td>Mos profillarni ko'rsatish va 18 yoshdan kichiklarning kirishini oldini olish.</td></tr>
+<tr><td>Bio, munosabat maqsadi, profil rasmi</td><td>Profilingizni boshqa foydalanuvchilarga ko'rsatish. Siz o'zingiz kiritasiz va istalgan vaqtda o'zgartira olasiz.</td></tr>
+<tr><td>Like, o'tkazib yuborish, moslik (match)</td><td>Tanishuv funksiyasi ishlashi uchun.</td></tr>
+<tr><td>Chat xabarlari</td><td>Moslashgan foydalanuvchilar o'rtasida xabar almashish.</td></tr>
+<tr><td>Bloklash va shikoyatlar</td><td>Xavfsizlikni ta'minlash va qoidabuzarliklarni ko'rib chiqish.</td></tr>
+<tr><td>Obuna (Premium) ma'lumoti</td><td>Google Play orqali qilingan xaridning identifikatori va muddati. Karta ma'lumotlaringizni biz ko'rmaymiz va saqlamaymiz, to'lov Google Play tomonidan amalga oshiriladi.</td></tr>
+<tr><td>Bildirishnoma tokeni</td><td>Telefoningizga yangi xabar haqida bildirishnoma yuborish (Firebase Cloud Messaging orqali).</td></tr>
+</table>
+<p>Ilova aniq GPS joylashuvingizni yig'maydi va saqlamaydi. Faqat o'zingiz tanlagan shahar ishlatiladi.</p>
+
+<h2>2. Ma'lumotlardan qanday foydalanamiz</h2>
+<ul>
+<li>Ilovaning asosiy funksiyalarini ta'minlash (profil, qidiruv, moslik, chat).</li>
+<li>Xavfsizlik: soxta profillar, spam va haqoratga qarshi kurashish.</li>
+<li>Premium obunani tekshirish va boshqarish.</li>
+<li>Muhim xizmat xabarlarini yuborish.</li>
+</ul>
+<p>Biz ma'lumotlaringizni reklama maqsadida uchinchi tomonlarga sotmaymiz.</p>
+
+<h2>3. Boshqa foydalanuvchilar nimani ko'radi</h2>
+<p>Boshqa foydalanuvchilarga faqat profilingizdagi ochiq ma'lumotlar ko'rsatiladi: ism, yosh, jins, shahar, bio, munosabat maqsadi va rasm. Emailingiz va parolingiz boshqalarga ko'rsatilmaydi.</p>
+
+<h2>4. Uchinchi tomon xizmatlari</h2>
+<ul>
+<li><b>Google Play Billing</b>: to'lovlar va obunalar uchun.</li>
+<li><b>Firebase Cloud Messaging (Google)</b>: bildirishnomalar uchun.</li>
+<li><b>Render</b>: serverlarni joylashtirish (hosting) xizmati.</li>
+</ul>
+<p>Bu xizmatlar o'z maxfiylik siyosatlariga muvofiq ishlaydi.</p>
+
+<h2>5. Ma'lumotlarni saqlash va o'chirish</h2>
+<p>Ma'lumotlaringiz akkauntingiz mavjud ekan saqlanadi. Akkauntni istalgan vaqtda ilovaning ichidan o'chirishingiz mumkin: <b>Profil → Sozlamalar → Akkauntni o'chirish</b>. Shunda profilingiz, rasmingiz, like va mosliklaringiz, xabarlaringiz, bloklar, shikoyatlar va obuna yozuvlaringiz serverdan o'chiriladi.</p>
+<p>Ilovaga kira olmasangiz yoki o'chirishda muammo bo'lsa, quyidagi aloqa orqali murojaat qiling, so'rovingizni ko'rib chiqamiz va akkauntni sizning nomingizdan o'chiramiz.</p>
+
+<h2>6. Xavfsizlik</h2>
+<p>Ma'lumotlar internet orqali himoyalangan (HTTPS) ulanish bilan uzatiladi, parollar xeshlangan holda saqlanadi. Biroq internetda hech bir tizim 100% xavfsiz emas, shuning uchun kuchli parol tanlashingizni va uni boshqalarga bermasligingizni tavsiya qilamiz.</p>
+
+<h2>7. Yosh cheklovi</h2>
+<p>Ilova faqat <b>18 yosh va undan katta</b> shaxslar uchun mo'ljallangan. Biz 18 yoshdan kichik shaxslarning ma'lumotlarini ongli ravishda yig'maymiz. Agar bunday akkaunt aniqlansa, u o'chiriladi.</p>
+
+<h2>8. Sizning huquqlaringiz</h2>
+<ul>
+<li>Profil ma'lumotlaringizni ilova ichida ko'rish va o'zgartirish.</li>
+<li>Akkauntni va ma'lumotlarni o'chirish.</li>
+<li>Savol yoki shikoyat bilan biz bilan bog'lanish.</li>
+</ul>
+
+<h2>9. O'zgarishlar</h2>
+<p>Siyosat yangilanishi mumkin. Muhim o'zgarishlar bo'lsa, ilovada yoki shu sahifada e'lon qilinadi va versiya raqami o'zgaradi.</p>
+
+<h2>10. Aloqa</h2>
+<p>Savollar va so'rovlar uchun Telegram: <a href="https://t.me/casflux">@casflux</a></p>
+</div>
+</main>
+</body>
+</html>
